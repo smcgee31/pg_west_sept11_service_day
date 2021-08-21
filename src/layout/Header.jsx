@@ -2,10 +2,6 @@ import React from 'react';
 import { Card, CardMedia } from '@material-ui/core';
 import dayOfService from '../assets/dayOfService.png';
 
-const styles = {
-  media: {},
-};
-
 const Header = () => {
   return (
     <Card
