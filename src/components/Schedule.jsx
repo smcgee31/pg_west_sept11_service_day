@@ -12,23 +12,25 @@ import scheduleDays from '../scheduleDays';
 
 const Schedule = () => {
   return (
-    <Card style={{ padding: 12, margin: 6 }}>
-      <Typography variant="h5">Date: Saturday, Sept 11th</Typography>
-      <Typography variant="h5">
-        Place: Church building at 56 S. 1300 W. Pleasant Grove (Stake Center)
-      </Typography>
-      <CardContent style={{ marginLeft: 12 }}>
-        <div style={{ marginBottom: 18 }}>
+    <Card style={{ padding: 24, margin: 6 }}>
+      <CardContent>
+        <Typography variant="h5">Date: Saturday, Sept 11th</Typography>
+        <Typography variant="h5">
+          Place: Church building at 56 S. 1300 W. Pleasant Grove (Stake Center)
+        </Typography>
+      </CardContent>
+      <CardContent style={{ marginLeft: 0 }}>
+        <div style={{ marginBottom: 36 }}>
           <ScheduleTable day={scheduleDays.thu} />
         </div>
-        <p>
+        <Typography style={{ marginBottom: 18 }}>
           * Please feel free to stay as little or long as you want. All ages and faiths are invited.{' '}
-        </p>
-        <p>
+        </Typography>
+        <Typography>
           In addition to providing meaningful service in our community, we hope this event can serve
           as a reminder of how people united across cultural boundaries during that difficult time
           with aid, compassion, understanding and love for one another.
-        </p>
+        </Typography>
       </CardContent>
     </Card>
   );

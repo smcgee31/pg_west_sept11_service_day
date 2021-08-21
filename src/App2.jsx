@@ -3,14 +3,14 @@ import flag from './assets/flag.jpeg';
 
 import Header from './layout/Header';
 import Main from './layout/Main';
-import Footer from './layout/Footer';
+// import Footer from './layout/Footer';
 
 function App() {
   return (
     <>
       <div
         style={{
-          backgroundImage: `url(${flag}), linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5))`,
+          backgroundImage: `url(${flag}), linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7))`,
           backgroundBlendMode: 'overlay',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -26,7 +26,7 @@ function App() {
         >
           <Header />
           <Main />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>
