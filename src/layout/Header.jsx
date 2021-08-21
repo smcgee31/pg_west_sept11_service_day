@@ -2,6 +2,10 @@ import React from 'react';
 import { Card, CardMedia } from '@material-ui/core';
 import dayOfService from '../assets/dayOfService.png';
 
+const styles = {
+  media: {},
+};
+
 const Header = () => {
   return (
     <Card
@@ -15,7 +19,7 @@ const Header = () => {
       <CardMedia
         component="img"
         alt="Sept 11th Day of Service"
-        height="450"
+        height="100%"
         title="Sept 11th Day of Service"
         src={dayOfService}
       />
