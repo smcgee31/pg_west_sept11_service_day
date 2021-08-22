@@ -6,6 +6,7 @@ import Main from './layout/Main';
 // import Footer from './layout/Footer';
 
 function App() {
+  localStorage.clear();
   return (
     <>
       <div
