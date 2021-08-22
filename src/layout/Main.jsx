@@ -18,7 +18,7 @@ const Main = () => {
       <Grid sm={12} item={true}>
         <Intro lang={lang} />
       </Grid>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         <Button color="primary" onClick={() => handleLangClick('es')}>
           Español
         </Button>

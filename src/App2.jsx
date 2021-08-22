@@ -19,7 +19,7 @@ function App() {
       >
         <div
           style={{
-            backgroundColor: 'rgba(245,245,245,0.4)',
+            backgroundColor: 'rgba(245,245,245,0.5)',
             maxWidth: 1028,
             padding: 12,
             margin: 'auto',
