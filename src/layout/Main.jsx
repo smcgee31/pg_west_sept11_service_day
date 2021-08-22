@@ -7,6 +7,7 @@ import Details from '../components/Details';
 import useLocalStorage from '../useLocalStorage';
 
 const Main = () => {
+  // eslint-disable-next-line
   const [lang, setLang] = useLocalStorage('lang', 'en');
 
   const handleLangClick = (lang) => {
