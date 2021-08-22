@@ -8,7 +8,6 @@ import useLocalStorage from '../useLocalStorage';
 
 const Main = () => {
   const [lang, setLang] = useLocalStorage('lang', 'en');
-  console.log(lang);
 
   const handleLangClick = (lang) => {
     setLang(lang);
@@ -17,7 +16,7 @@ const Main = () => {
   return (
     <>
       <Grid sm={12} item={true}>
-        <Intro />
+        <Intro lang={lang} />
       </Grid>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Button color="primary" onClick={() => handleLangClick('es')}>
@@ -31,7 +30,7 @@ const Main = () => {
         </Button>
       </div>
       <Grid container xs={12} item={true}>
-        <Details />
+        <Details lang={lang} />
       </Grid>
     </>
   );

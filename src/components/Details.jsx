@@ -4,11 +4,11 @@ import { Grid } from '@material-ui/core';
 // import Personals from './Personals';
 import Schedule from './Schedule';
 
-const Details = () => {
+const Details = ({ lang }) => {
   return (
     <Grid container>
       {/* <Personals /> */}
-      <Schedule />
+      <Schedule lang={lang} />
     </Grid>
   );
 };

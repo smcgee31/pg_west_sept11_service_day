@@ -10,8 +10,8 @@ import {
 } from '@material-ui/core';
 import scheduleDays from '../scheduleDays';
 
-const Schedule = () => {
-  const lang = JSON.parse(localStorage.getItem('lang'));
+const Schedule = ({ lang }) => {
+  if (!lang) lang = 'en';
 
   return (
     <Card style={{ padding: 24, margin: 6 }}>
@@ -69,11 +69,11 @@ const cellStyle = {
   stations: { color: 'brown' },
 };
 
-const ScheduleTable = (props) => {
+const ScheduleTable = ({ day }) => {
   return (
     <Table size="small">
       <TableBody>
-        {props.day.map((row) => (
+        {day.map((row) => (
           <TableRow key={row.head}>
             <TableCell align="right" component="th" scope="row">
               {row.head === 'items' ? '' : row.head === 'stations' ? '' : row.head}
