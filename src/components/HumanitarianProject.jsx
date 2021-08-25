@@ -18,10 +18,12 @@ const Intro = ({ lang }) => {
           {lang === 'pt' &&
             `Estaremos coletando os seguintes itens para apoiar a Foster Care Utah:`}
         </Typography>
-        <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+        <Typography style={{ paddingLeft: 18, marginTop: 8 }}>
           {lang === 'en' && `Clothing for foster children:`}
           {lang === 'es' && `Ropa para niños de crianza:`}
           {lang === 'pt' && `Roupas para filhos adotivos:`}
+        </Typography>
+        <Typography style={{ paddingLeft: 36 }}>
           {lang === 'en' && (
             <>
               <li>Socks - for little kids to adults</li>
@@ -44,13 +46,13 @@ const Intro = ({ lang }) => {
             </>
           )}
         </Typography>
-        <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+        <Typography style={{ paddingLeft: 18, marginTop: 8 }}>
           {lang === 'en' && `Birthday Boxes - made from any of the following:`}
           {lang === 'es' && `Cajas de cumpleaños: hechas de cualquiera de los siguientes:`}
           {lang === 'pt' && `Caixas de aniversário - feitas de qualquer um dos seguintes:`}
         </Typography>
         <div style={{ display: 'flex' }}>
-          <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+          <Typography style={{ paddingLeft: 36 }}>
             {lang === 'en' && (
               <>
                 <li>Box of cake mix</li>
@@ -76,7 +78,7 @@ const Intro = ({ lang }) => {
               </>
             )}
           </Typography>
-          <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+          <Typography style={{ paddingLeft: 36 }}>
             {lang === 'en' && (
               <>
                 <li>Happy Birthday Sign</li>
@@ -100,13 +102,13 @@ const Intro = ({ lang }) => {
             )}
           </Typography>
         </div>
-        <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+        <Typography style={{ paddingLeft: 18, marginTop: 8 }}>
           {lang === 'en' && `School supplies for foster children:`}
           {lang === 'es' && `Útiles escolares para niños de crianza:`}
           {lang === 'pt' && `Material escolar para crianças adotadas:`}
         </Typography>
         <div style={{ display: 'flex' }}>
-          <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+          <Typography style={{ paddingLeft: 36 }}>
             {lang === 'en' && (
               <>
                 <li>Graphing Calculators</li>
@@ -135,7 +137,7 @@ const Intro = ({ lang }) => {
               </>
             )}
           </Typography>
-          <Typography style={{ paddingLeft: 28, marginTop: 8 }}>
+          <Typography style={{ paddingLeft: 36 }}>
             {lang === 'en' && (
               <>
                 <li>Spiral notebooks (wide-lined)</li>
