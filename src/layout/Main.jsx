@@ -3,6 +3,7 @@ import { Grid, Button } from '@material-ui/core';
 
 import Intro from '../components/Intro';
 import Details from '../components/Details';
+import HumanitarianProject from '../components/HumanitarianProject';
 
 import useLocalStorage from '../useLocalStorage';
 
@@ -29,7 +30,8 @@ const Main = () => {
           Português
         </Button>
       </div>
-      <Grid container xs={12} item={true}>
+      <Grid sm={12} item={true}>
+        <HumanitarianProject lang={lang} />
         <Details lang={lang} />
       </Grid>
     </>
