@@ -4,11 +4,7 @@ const createData = (head, desc) => {
 
 const scheduleDays = {
   en: [
-    createData('8:AM', 'Drop off humanitarian donation:  school supplies for foster children'),
-    createData(
-      'items',
-      'Graphing Calculators, #2 Pencils, Erasers, Sharpeners, Zippered pencil bag, Spiral notebooks (wide-lined), Dry erase markers, Washable markers, Crayons, Box of tissues'
-    ),
+    createData('8:00am', 'Drop off humanitarian project donations'),
     createData('8:30am', 'Kick off project, prayer'),
     createData('8:47am', 'Live stream Tabernacle Choir commemorative broadcast in chapel'),
     createData('9:15am', 'Service stations'),
@@ -26,14 +22,7 @@ const scheduleDays = {
     ),
   ],
   es: [
-    createData(
-      '8:AM',
-      'Entrega de donaciones humanitarias:  material escolar para niños en cuidado temporal'
-    ),
-    createData(
-      'items',
-      'Calculadoras gráficas, Lápices #2, Borradores, Sacapuntas, Bolsa de lápices con zíper, Cuadernos de espiral (de líneas anchas), Marcadores que se borran fácilmente, Marcadores lavables, Crayones, Caja de toallitas de papel(Kleenex)'
-    ),
+    createData('8:00am', 'Entrega donaciones de proyectos humanitarios'),
     createData('8:30am', 'Inicio del proyecto, oración'),
     createData('8:47am', 'Transmisión conmemorativa del Coro del Tabernáculo en la capilla'),
     createData('9:15am', 'Estaciones de servicio'),
@@ -51,14 +40,7 @@ const scheduleDays = {
     ),
   ],
   pt: [
-    createData(
-      '8h',
-      'Entrega de doações humanitárias:  suprimentos escolares para crianças em adoção temporária'
-    ),
-    createData(
-      'items',
-      'Calculadoras Gráficas, Lápis nº 2, Borrachas, Apontadores, Estojos com Zíper, Cadernos Espiral (com pautas grandes), Marcadores para Quadro Branco, Marcadores Laváveis, Giz de Cera, Caixas de Lenços de Papel'
-    ),
+    createData('8h', 'Devolva doações para projetos humanitários'),
     createData('8h30', 'Início do Projeto, oração'),
     createData('8h47', 'Transmissão comemorativa ao vivo do Coro do Tabernáculo, na capela'),
     createData('9h15', 'Estações de serviço'),
