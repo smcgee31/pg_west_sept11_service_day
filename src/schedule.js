@@ -2,7 +2,7 @@ const createData = (head, desc) => {
   return { head, desc };
 };
 
-const scheduleDays = {
+const schedule = {
   en: [
     createData('8:00am', 'Drop off humanitarian project donations'),
     createData('8:30am', 'Kick off project, prayer'),
@@ -59,4 +59,4 @@ const scheduleDays = {
   ],
 };
 
-export default scheduleDays;
+export default schedule;
