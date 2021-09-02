@@ -9,13 +9,21 @@ const English = () => {
           Sign up for one of these great community projects:
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
-          <a href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-cascade" target="_blank">
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-cascade"
+            target="_blank"
+            rel="noreferrer"
+          >
             Cascade Springs
           </a>
           <span> General cleanup</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
-          <a href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-discovery" target="_blank">
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-discovery"
+            target="_blank"
+            rel="noreferrer"
+          >
             Discovery Park
           </a>
           <span>
@@ -24,19 +32,31 @@ const English = () => {
           </span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
-          <a href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-downtown" target="_blank">
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-downtown"
+            target="_blank"
+            rel="noreferrer"
+          >
             Downtown Park
           </a>
           <span> at 100 South Main St - Wipe down playground</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
-          <a href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-gtrail" target="_blank">
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-gtrail"
+            target="_blank"
+            rel="noreferrer"
+          >
             “G” Trail Cleanup
           </a>
           <span> at 1700 East 200 South - General Cleanup</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
-          <a href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-paint" target="_blank">
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-paint"
+            target="_blank"
+            rel="noreferrer"
+          >
             PG Swimming Pool
           </a>
           <span> at 582 East 300 South - Paint curbs</span>
