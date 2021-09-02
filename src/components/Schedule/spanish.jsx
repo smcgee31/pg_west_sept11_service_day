@@ -1,39 +1,89 @@
+import {
+  Card,
+  CardContent,
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+  Typography,
+} from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
-import { Card, Typography, CardContent } from '@material-ui/core';
-import schedule from '../../schedule';
-import ScheduleTable from './ScheduleTable';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    borderBottom: '0px solid white',
+  },
+}));
 
 const Spanish = () => {
-  const lang = 'es';
+  const classes = useStyles();
 
   return (
-    <Card style={{ padding: 24, margin: 6 }}>
+    <Card style={{ padding: 24, margin: 6, width: '100%' }}>
       <CardContent>
-        <Typography variant="h5" style={{ marginBottom: 12 }}>
-          Fecha: Sábado 11 de septiembre 2021
-        </Typography>
+        <Typography variant="h5">Fecha: Sábado 11 de septiembre 2021</Typography>
         <Typography variant="h5">
           Lugar: Edificio de la iglesia en la siguiente dirección: 56 S. 1300 W. Pleasant Grove
           (Centro de Estaca)
         </Typography>
+        <Typography variant="h5">Hora: 8:30am</Typography>
       </CardContent>
-      <CardContent style={{ marginLeft: 0 }}>
-        <Typography variant="h5" style={{ marginTop: -18 }}>
-          Hora:
-        </Typography>
-        <div style={{ marginBottom: 36 }}>{<ScheduleTable lang={schedule[lang]} />}</div>
-        <Typography style={{ marginBottom: 18 }}>
-          * Por favor, siéntase libre de quedarse el tiempo que desee. Todas las edades y religiones
-          están invitadas.
-        </Typography>
-        <Typography style={{ marginBottom: 18 }}>
-          Además de prestar un servicio importante en nuestra comunidad, esperamos que este evento
-          pueda servir como recordatorio de cómo la gente se unió a través de las diferencias
-          culturales durante ese difícil momento con ayuda, compasión, comprensión y tolerancia
-          hacia los demás.
-        </Typography>
-        <Typography>¡Esperamos verles allí!</Typography>
-      </CardContent>
+      <div style={{ margin: 'auto', marginTop: -12 }}>
+        <CardContent>
+          <Table size="small">
+            <TableBody>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Drop off humanitarian project donations
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Kick off projects, prayer
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Live stream Tabernacle Choir commemorative broadcast in chapel
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Service stations
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Thank you kits and notes for hospital workers, police department, and fire
+                  department
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Children notes for foster kids
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Humanitarian donations stations - separate and prepare kits
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Refreshments
+                </TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell align="center" className={classes.root}>
+                  Deliver or send thank you kits to hospital workers, first responders (15
+                  volunteers)
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </CardContent>
+      </div>
     </Card>
   );
 };
