@@ -34,49 +34,49 @@ const Portuguese = () => {
             <TableBody>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Drop off humanitarian project donations
+                  Devolva doações para projetos humanitários
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Kick off projects, prayer
+                  Projetos de lançamento, oração
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Live stream Tabernacle Choir commemorative broadcast in chapel
+                  Transmissão ao vivo comemorativa do Coro do Tabernáculo na capela
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Service stations
+                  Estações de serviço
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Thank you kits and notes for hospital workers, police department, and fire
-                  department
+                  Obrigado kits e notas para funcionários do hospital, departamento de polícia e
+                  corpo de bombeiros
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Children notes for foster kids
+                  Anotações de crianças para filhos adotivos
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Humanitarian donations stations - separate and prepare kits
+                  Estações de doações humanitárias - separe e prepare os kits
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Refreshments
+                  Refrescos
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Deliver or send thank you kits to hospital workers, first responders (15
-                  volunteers)
+                  Entregar ou enviar kits de agradecimento aos funcionários do hospital, socorristas
+                  (15 voluntários)
                 </TableCell>
               </TableRow>
             </TableBody>

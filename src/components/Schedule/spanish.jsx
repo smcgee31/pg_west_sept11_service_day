@@ -35,49 +35,49 @@ const Spanish = () => {
             <TableBody>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Drop off humanitarian project donations
+                  Entrega donaciones de proyectos humanitarios
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Kick off projects, prayer
+                  Poner en marcha proyectos, oración
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Live stream Tabernacle Choir commemorative broadcast in chapel
+                  Transmisión conmemorativa del Coro del Tabernáculo en vivo en la capilla
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Service stations
+                  Estaciones de servicio
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Thank you kits and notes for hospital workers, police department, and fire
-                  department
+                  Kits y notas de agradecimiento para los trabajadores del hospital, el departamento
+                  de policía y el departamento de bomberos
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Children notes for foster kids
+                  Notas para niños para niños en crianza
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Humanitarian donations stations - separate and prepare kits
+                  Estaciones de donaciones humanitarias: equipos separados y preparados
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Refreshments
+                  Refrigerios
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell align="center" className={classes.root}>
-                  Deliver or send thank you kits to hospital workers, first responders (15
-                  volunteers)
+                  Entregue o envíe kits de agradecimiento a los trabajadores del hospital, los
+                  primeros en responder (15 voluntarios)
                 </TableCell>
               </TableRow>
             </TableBody>
