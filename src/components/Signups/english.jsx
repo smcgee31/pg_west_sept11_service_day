@@ -26,10 +26,7 @@ const English = () => {
           >
             Discovery Park
           </a>
-          <span>
-            {' '}
-            at 1550 North 100 East - Wipe down playground, paint curbs, speed bumps, and path
-          </span>
+          <span> - Wipe down playground, paint curbs, speed bumps, and path</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
           <a
@@ -39,7 +36,7 @@ const English = () => {
           >
             Downtown Park
           </a>
-          <span> at 100 South Main St - Wipe down playground</span>
+          <span> - Wipe down playground</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
           <a
@@ -49,7 +46,7 @@ const English = () => {
           >
             “G” Trail Cleanup
           </a>
-          <span> at 1700 East 200 South - General Cleanup</span>
+          <span> - General Cleanup</span>
         </Typography>
         <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
           <a
@@ -59,7 +56,7 @@ const English = () => {
           >
             PG Swimming Pool
           </a>
-          <span> at 582 East 300 South - Paint curbs</span>
+          <span> - Paint curbs</span>
         </Typography>
       </CardContent>
     </Card>

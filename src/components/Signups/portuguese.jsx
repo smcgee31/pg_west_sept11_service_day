@@ -3,19 +3,61 @@ import React from 'react';
 
 const Portuguese = () => {
   return (
-    <Card style={{ padding: 24, margin: 6 }}>
+    <Card style={{ padding: 24, paddingLeft: 48, margin: 6 }}>
       <CardContent style={{ marginLeft: 0 }}>
-        <Typography style={{ marginBottom: 18 }}>
-          * Sinta-se à vontade para ficar o tempo que quiser, seja muito ou pouco. Pessoas de todas
-          as idades e religiões estão convidadas.
+        <Typography variant="h5" style={{ marginBottom: 18 }}>
+          Inscreva-se em um destes grandes projetos comunitários:
         </Typography>
-        <Typography style={{ marginBottom: 18 }}>
-          Além de prestar serviço significativo em nossa comunidade, esperamos que este evento possa
-          ser uma lembrança de como as pessoas, unidas e sem quaisquer limites culturais durante
-          aquele momento difícil, serviram por meio de sua ajuda, compaixão, compreensão e
-          tolerância umas para com as outras.
+        <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-cascade"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cascade Springs
+          </a>
+          <span> - Limpeza geral</span>
         </Typography>
-        <Typography>Esperamos ver você lá!</Typography>
+        <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-discovery"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Discovery Park
+          </a>
+          <span> - Limpe o playground, pinte calçadas, lombadas e caminho</span>
+        </Typography>
+        <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-downtown"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Downtown Park
+          </a>
+          <span> - Limpe o playground</span>
+        </Typography>
+        <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-gtrail"
+            target="_blank"
+            rel="noreferrer"
+          >
+            “G” Trail Cleanup
+          </a>
+          <span> - Limpeza geral</span>
+        </Typography>
+        <Typography style={{ marginBottom: 18, marginLeft: 36 }}>
+          <a
+            href="https://www.signupgenius.com/go/30E0C44A5AD2FA4FD0-paint"
+            target="_blank"
+            rel="noreferrer"
+          >
+            PG Swimming Pool
+          </a>
+          <span> - Paint curbs</span>
+        </Typography>
       </CardContent>
     </Card>
   );
