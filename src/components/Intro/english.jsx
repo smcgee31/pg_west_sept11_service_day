@@ -14,7 +14,7 @@ const English = () => {
         </Typography>
         <Typography
           variant="subtitle2"
-          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'center', textAlign: 'center' }}
         >
           For these events we encourage using face masks and attempting physical distancing while in
           the church building.

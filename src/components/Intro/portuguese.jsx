@@ -14,7 +14,7 @@ const Portuguese = () => {
         </Typography>
         <Typography
           variant="subtitle2"
-          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'center', textAlign: 'center' }}
         >
           Para esses eventos, encorajamos o uso de máscaras faciais e a tentativa de distanciamento
           físico enquanto estiver no prédio da igreja.

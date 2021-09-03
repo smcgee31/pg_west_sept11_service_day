@@ -14,7 +14,7 @@ const Spanish = () => {
         </Typography>
         <Typography
           variant="subtitle2"
-          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'center', textAlign: 'center' }}
         >
           Para estos eventos, recomendamos el uso de máscaras faciales y el intento de
           distanciamiento físico mientras se encuentra en el edificio de la iglesia.
