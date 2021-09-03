@@ -12,6 +12,13 @@ const Portuguese = () => {
           defender a liberdade de nossa nação no país e no exterior, gostaríamos de nos unir como
           comunidade e participar de um dia de serviço.
         </Typography>
+        <Typography
+          variant="subtitle2"
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+        >
+          Para esses eventos, encorajamos o uso de máscaras faciais e a tentativa de distanciamento
+          físico enquanto estiver no prédio da igreja.
+        </Typography>
       </CardContent>
     </Card>
   );

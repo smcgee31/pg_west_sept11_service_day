@@ -6,8 +6,8 @@ const Portuguese = () => {
     <Card style={{ padding: 24, margin: 6 }}>
       <CardContent style={{ marginLeft: 0 }}>
         <Typography style={{ marginBottom: 18 }}>
-          * Sinta-se à vontade para ficar o tempo que quiser, seja muito ou pouco. Pessoas de todas
-          as idades e religiões estão convidadas.
+          Sinta-se à vontade para ficar o tempo que quiser, seja muito ou pouco. Pessoas de todas as
+          idades e religiões estão convidadas.
         </Typography>
         <Typography style={{ marginBottom: 18 }}>
           Além de prestar serviço significativo em nossa comunidade, esperamos que este evento possa

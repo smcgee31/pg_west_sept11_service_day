@@ -12,6 +12,13 @@ const Spanish = () => {
           innumerables que sirven para defender la libertad de nuestra nación en el país y en el
           extranjero, nos gustaría unirnos como comunidad y participar en un día de servicio.
         </Typography>
+        <Typography
+          variant="subtitle2"
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+        >
+          Para estos eventos, recomendamos el uso de máscaras faciales y el intento de
+          distanciamiento físico mientras se encuentra en el edificio de la iglesia.
+        </Typography>
       </CardContent>
     </Card>
   );

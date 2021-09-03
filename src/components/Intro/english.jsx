@@ -1,5 +1,5 @@
-import React from 'react';
 import { Card, CardContent, Typography } from '@material-ui/core';
+import React from 'react';
 
 const English = () => {
   return (
@@ -11,6 +11,13 @@ const English = () => {
           were killed and injured on that day, and to honor the first responders and countless
           others who serve to defend our nation’s freedom at home and abroad, we would like to unite
           together as a community and participate in a day of service.
+        </Typography>
+        <Typography
+          variant="subtitle2"
+          style={{ marginTop: 18, display: 'flex', justifyContent: 'space-around' }}
+        >
+          For these events we encourage using face masks and attempting physical distancing while in
+          the church building.
         </Typography>
       </CardContent>
     </Card>

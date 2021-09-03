@@ -6,7 +6,7 @@ const English = () => {
     <Card style={{ padding: 24, margin: 6 }}>
       <CardContent style={{ marginLeft: 0 }}>
         <Typography style={{ marginBottom: 18 }}>
-          * Please feel free to stay as little or long as you want. All ages and faiths are invited.
+          Please feel free to stay as little or long as you want. All ages and faiths are invited.
         </Typography>
         <Typography style={{ marginBottom: 18 }}>
           In addition to providing meaningful service in our community, we hope this event can serve

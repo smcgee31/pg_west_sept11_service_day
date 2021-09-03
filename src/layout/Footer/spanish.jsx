@@ -6,7 +6,7 @@ const Spanish = () => {
     <Card style={{ padding: 24, margin: 6 }}>
       <CardContent style={{ marginLeft: 0 }}>
         <Typography style={{ marginBottom: 18 }}>
-          * Por favor, siéntase libre de quedarse el tiempo que desee. Todas las edades y religiones
+          Por favor, siéntase libre de quedarse el tiempo que desee. Todas las edades y religiones
           están invitadas.
         </Typography>
         <Typography style={{ marginBottom: 18 }}>
