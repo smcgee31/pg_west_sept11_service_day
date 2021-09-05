@@ -51,9 +51,9 @@ function App() {
           </Grid>
 
           <Grid sm={12} item={true}>
+            <Signups lang={lang} />
             <HumanitarianProject lang={lang} />
             <Details lang={lang} />
-            <Signups lang={lang} />
           </Grid>
 
           <Footer lang={lang} />
